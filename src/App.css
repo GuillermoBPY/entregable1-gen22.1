@@ -52,9 +52,14 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 0.2rem;
 }
 .bxl-github {
-  margin-right: 1rem;
-  font-size: 1.5rem;
+font-size: 1.3rem;
+}
+
+.githubCODE a{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.4rem;
 }
