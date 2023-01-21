@@ -17,7 +17,7 @@
 
 .quotebox__frase {
   display: grid;
-  grid-template-columns: 20px 1fr;
+  grid-template-columns: 30px 1fr;
   gap: 1rem;
   justify-items: flex-end;
 }
@@ -42,6 +42,7 @@
   place-content: center;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
   font-size: 2.5rem;
+  margin-left: auto;
 }
 .quotebox__btn:active {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75) inset;

@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App" style={{ backgroundColor: bgColor, color: bgColor }}>
-      <QuoteBox randomColor={randomColor} setbgColor={setbgColor} color={bgColor}/>
+      <QuoteBox randomColor={randomColor} setbgColor={setbgColor} bgColor={bgColor}/>
     </div>
   );
 }
