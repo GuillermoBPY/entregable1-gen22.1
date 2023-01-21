@@ -1,7 +1,6 @@
 import React from "react";
 
 const QuoteBoxFrase = ({ randomQuote }) => {
-
   return (
     <div className="quotebox__frase">
       <i className="bx bxs-quote-left quotebox__frase--i"></i>
