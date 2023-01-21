@@ -54,12 +54,12 @@
   bottom: 0;
 }
 .bxl-github {
-font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
-.githubCODE a{
+.githubCODE a {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  padding: 0.4rem;
+  padding: 0.1rem;
 }
