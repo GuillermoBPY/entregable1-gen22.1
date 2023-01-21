@@ -1,21 +1,22 @@
 import { useState } from "react";
 import "./App.css";
 import QuoteBox from "./components/QuoteBox";
+import colors from "./json/colors.json";
 
 function App() {
-  const randomColor = () => {
-    const color = "#" + Math.random().toString(16).slice(9);
-    return color;
+  const randomArrayElement = (array) => {
+    const indexElement = Math.floor(Math.random() * array.length);
+    return array[indexElement];
   };
 
-  const [bgColor, setbgColor] = useState(randomColor);
+  const [bgColor, setbgColor] = useState(randomArrayElement(colors));
 
   return (
     <div className="App" style={{ backgroundColor: bgColor, color: bgColor }}>
       <QuoteBox
-        randomColor={randomColor}
         setbgColor={setbgColor}
         bgColor={bgColor}
+        randomArrayElement={randomArrayElement}
       />
     </div>
   );

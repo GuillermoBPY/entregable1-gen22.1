@@ -4,10 +4,10 @@ const QuoteboxBtn = ({ updateSates, bgColor }) => {
   return (
     <button
       style={{ backgroundColor: bgColor }}
-      className="quotebox__btn"
+      className="App__quoteBox--btn"
       onClick={updateSates}
     >
-      <i className="bx bx-chevron-right"></i>
+      <i className="bx bx-chevron-right App__quoteBox--btn--i"></i>
     </button>
   );
 };
