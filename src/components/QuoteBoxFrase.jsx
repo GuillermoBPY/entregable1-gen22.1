@@ -1,11 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import QuoteBoxBtnBoxBtn from "./QuoteBoxBtn";
+import quotes from "../json/quotes.json";
 
 const QuoteBoxFrase = ({
   randomArrayElement,
   randomColor,
-  quotes,
   setbgColor,
   color
 }) => {

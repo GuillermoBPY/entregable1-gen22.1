@@ -1,6 +1,6 @@
 import React from "react";
 import QuoteBoxFrase from "./QuoteBoxFrase";
-import quotes from "../json/quotes.json";
+
 
 const QuoteBox = ({ randomColor, setbgColor,color}) => {
   const randomArrayElement = (array) => {
@@ -13,7 +13,6 @@ const QuoteBox = ({ randomColor, setbgColor,color}) => {
       <QuoteBoxFrase
         randomArrayElement={randomArrayElement}
         randomColor={randomColor}
-        quotes={quotes}
         setbgColor={setbgColor}
         color={color}
       />
