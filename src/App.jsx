@@ -18,6 +18,14 @@ function App() {
         bgColor={bgColor}
         randomArrayElement={randomArrayElement}
       />
+      <span className="githubCODE">
+        <a
+          target="_blank"
+          href="https://github.com/GuillermoBPY/entregable1-gen22.1.git"
+        >
+          <i className="bx bxl-github"></i>CODED BY GUILLERMOBPY
+        </a>
+      </span>
     </div>
   );
 }

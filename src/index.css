@@ -1,19 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-tap-highlight-color: transparent;
   user-select: none;
 }
 
-
-h1{
+h1 {
   font-weight: 400;
   font-size: 1.5rem;
 }
-p{
+p {
   font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

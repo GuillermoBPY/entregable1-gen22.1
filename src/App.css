@@ -1,20 +1,20 @@
-.App{
+.App {
+  min-width: 250px;
   height: 100vh;
   display: grid;
   place-content: center;
-  padding: 2rem;
-  transition: background-color 0.5s, color 0.5s
+  padding: 1rem;
+  transition: background-color 0.5s, color 0.5s;
 }
 
-.App__quoteBox{
-  min-width: 250px;
+.App__quoteBox {
   max-width: 500px;
   background-color: whitesmoke;
   padding: 1rem;
   border-radius: 5px;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
-.App__quoteBox--frase{
+.App__quoteBox--frase {
   display: grid;
   grid-template-columns: 35px 1fr;
   justify-items: end;
@@ -22,25 +22,39 @@
   line-height: 1.5rem;
 }
 
-.App__quoteBox--frase--i{
+.App__quoteBox--frase--i {
   grid-row: span 3;
   font-size: 3rem;
 }
 
-.App__quoteBox--btn{
+.App__quoteBox--btn {
+  cursor: pointer;
   display: block;
   margin-left: auto;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   border: none;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-
-.App__quoteBox--btn:active{
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75) inset;
+.App__quoteBox--btn:active {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75) inset;
 }
-.App__quoteBox--btn--i{
+.App__quoteBox--btn--i {
   font-size: 3rem;
+}
+
+.githubCODE {
+  position: fixed;
+  background-color: whitesmoke;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.2rem;
+}
+.bxl-github {
+  margin-right: 1rem;
+  font-size: 1.5rem;
 }
