@@ -9,6 +9,18 @@
   user-select: none;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
 h1 {
   font-weight: 400;
   font-size: 1.5rem;
