@@ -30,6 +30,7 @@
 .App__quoteBox--btn {
   cursor: pointer;
   display: block;
+  margin-top: 1rem;
   margin-left: auto;
   width: 45px;
   height: 45px;
